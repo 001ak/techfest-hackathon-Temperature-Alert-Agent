@@ -3,7 +3,7 @@ Temperature Alert Agent using uAgent library
 
 # Temperature Alert Agent
 
-The Temperature Alert Agent is a dynamic project that leverages a free weather API to retrieve real time temperature data for user-defined locations. It offers users the flexibility to establish their desired temperature thresholds and locations. Whenever the current temperature goes beyond these set parameters, the agent promptly sends out alerts. In conjunction with this, we've developed a Temperature Alert Agent capable of acquiring temperature information from the weather API. User agents are responsible for sending query requests to the Temperature Alert Agent, which in turn delivers responses to the user agents, making this a comprehensive and interactive system for real-time temperature monitoring and notifications.
+The Temperature Alert Agent is a dynamic project that leverages a free weather API to retrieve real-time temperature data for user-defined locations. It offers users the flexibility to establish their desired temperature thresholds and locations. Whenever the current temperature goes beyond these set parameters, the agent promptly sends out alerts. In conjunction with this, we've developed a Temperature Alert Agent capable of acquiring temperature information from the weather API. User agents are responsible for sending query requests to the Temperature Alert Agent, which in turn delivers responses to the user agents, making this a comprehensive and interactive system for real-time temperature monitoring and notifications.
 
 ## Setup
 
@@ -51,12 +51,16 @@ WEATHER_API_KEY=your_api_key_here
 ### 4. Running the Project
 First, run temperature_alert_agent.py in one terminal:
 ```bash
-python temp_agent.py
+python temperature_alert_agent.py
 ```
 It runs on port 8000.
 
 Then, run user_agent.py in another terminal. It will prompt the user to provide inputs. Make sure to run it on a port other than 8000:
 ```bash
-python user.py
+python user_agent.py port_no
+```
+Example:-
+```bash
+python user_agent.py 8001
 ```
 The Temperature Alert Agent will fetch temperature data and send alerts based on the user's input.
