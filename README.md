@@ -55,7 +55,7 @@ python temperature_alert_agent.py
 ```
 It runs on port 8000.
 
-Then, run user_agent.py in another terminal. It will prompt the user to provide inputs. Make sure to run it on a port other than 8000:
+Then, run user_agent.py in another terminal( Again perform **poetry shell** in this new terminal). It will prompt the user to provide inputs. Make sure to run it on a port other than 8000:
 ```bash
 python user_agent.py port_no
 ```
