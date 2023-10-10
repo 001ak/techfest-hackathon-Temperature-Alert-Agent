@@ -3,7 +3,7 @@ Temperature Alert Agent using uAgent library
 
 # Temperature Alert Agent
 
-Temperature Alert Agent is a project that connects to a free weather API to fetch real-time temperatures for specified locations. It allows users to set their preferred temperature range and location, and sends alerts when the current temperature exceeds the specified range.
+The Temperature Alert Agent is a dynamic project that leverages a free weather API to retrieve real time temperature data for user-defined locations. It offers users the flexibility to establish their desired temperature thresholds and locations. Whenever the current temperature goes beyond these set parameters, the agent promptly sends out alerts. In conjunction with this, we've developed a Temperature Alert Agent capable of acquiring temperature information from the weather API. User agents are responsible for sending query requests to the Temperature Alert Agent, which in turn delivers responses to the user agents, making this a comprehensive and interactive system for real-time temperature monitoring and notifications.
 
 ## Setup
 
@@ -41,10 +41,12 @@ To set up the necessary environment variables:
 
 Create a .env file in the root of the project directory if it doesn't already exist.
 
-Obtain your Weather API key from Weather API Provider.
+Obtain your Weather API key from  [Weather API Provider](https://www.weatherapi.com/)
 
 Open the .env file and replace the placeholders with your API key:
+```bash
 WEATHER_API_KEY=your_api_key_here
+```
 
 ### 4. Running the Project
 First, run temp_agent.py in one terminal:
