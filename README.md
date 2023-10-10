@@ -45,7 +45,7 @@ Obtain your Weather API key from  [Weather API Provider](https://www.weatherapi.
 
 Open the .env file and replace the placeholders with your API key:
 ```bash
-WEATHER_API_KEY=your_api_key_here
+WEATHER_API_KEY=<your_api_key_here>
 ```
 
 ### 4. Running the Project
@@ -57,7 +57,7 @@ It runs on port 8000.
 
 Then, run user_agent.py in another terminal( Again perform **poetry shell** in this new terminal). It will prompt the user to provide inputs. Make sure to run it on a port other than 8000:
 ```bash
-python user_agent.py port_no
+python user_agent.py <port_no>
 ```
 Example:-
 ```bash
