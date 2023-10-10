@@ -49,13 +49,13 @@ WEATHER_API_KEY=your_api_key_here
 ```
 
 ### 4. Running the Project
-First, run temp_agent.py in one terminal:
+First, run temperature_alert_agent.py in one terminal:
 ```bash
 python temp_agent.py
 ```
 It runs on port 8000.
 
-Then, run user.py in another terminal. It will prompt the user to provide inputs. Make sure to run it on a port other than 8000:
+Then, run user_agent.py in another terminal. It will prompt the user to provide inputs. Make sure to run it on a port other than 8000:
 ```bash
 python user.py
 ```
