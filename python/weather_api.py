@@ -7,10 +7,10 @@ from decouple import config  # Import the 'config' function from 'python-decoupl
 WEATHER_API_KEY = config("WEATHER_API_KEY")
 
 def fetch_temperature(location):
-    # Replace with the actual weather API URL
+    # weather API URL
     api_url = f"http://api.weatherapi.com/v1/current.json?key={WEATHER_API_KEY}&q={location}"
 
-    # Include the API key in the request headers (if required by the API)
+    # Include the API key in the request headers
     headers = {
         "Authorization": f"Bearer {WEATHER_API_KEY}"
     }
