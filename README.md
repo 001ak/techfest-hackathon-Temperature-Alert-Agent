@@ -41,10 +41,12 @@ To set up the necessary environment variables:
 
 Create a .env file in the root of the project directory if it doesn't already exist.
 
-Obtain your Weather API key from Weather API Provider.
+Obtain your Weather API key from  [Weather API Provider](https://www.weatherapi.com/)
 
 Open the .env file and replace the placeholders with your API key:
+```bash
 WEATHER_API_KEY=your_api_key_here
+```
 
 ### 4. Running the Project
 First, run temp_agent.py in one terminal:
