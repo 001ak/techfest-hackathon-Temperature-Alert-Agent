@@ -22,13 +22,14 @@ class TemperatureResponse(Model):
 
 # Taking port for user from command line
 user_port=int(sys.argv[1])
+SEED=f"seed_{user_port}"
 ENDPOINT_URI=f"http://127.0.0.1:{user_port}/submit"
 
 # Creating the user agent
 user_agent = Agent(
     name="user_agent",
     port=user_port,
-    seed="user_agent secret phrase",
+    seed=SEED,
     endpoint=[ENDPOINT_URI],
 )
 
